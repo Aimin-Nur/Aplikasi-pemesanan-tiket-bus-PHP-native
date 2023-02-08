@@ -19,7 +19,7 @@ $tiket = $data['maxURUT'];
 $tiket++;
 $j = "TKTBUS";
 $tiketauto = $j . sprintf("%03s", $tiket);
-// MAHAL TIKET
+
 ?>
 
 

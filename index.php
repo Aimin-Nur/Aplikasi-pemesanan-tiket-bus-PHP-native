@@ -267,7 +267,7 @@ if($_SESSION['tingkat']=="admin"){
                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
                             <i class="fa fa-retweet fa-3x text-primary"></i>
                             <div class="ms-3">
-                                <p class="mb-2">Tiket Unsent</p>
+                          tr      <p class="mb-2">Tiket Unsent</p>
                                 <h6 class="mb-0"><?=$belum;?> Tiket</h6>
                             </div>
                         </div>
