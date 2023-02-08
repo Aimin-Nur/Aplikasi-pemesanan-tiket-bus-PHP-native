@@ -1,0 +1,173 @@
+ /* Custom warna */
+
+:root{
+    --merah: #D81324;
+    --gradasi : linear-gradient(to right, #00093c, #2d0b00);
+    --gradasi-2 : rgba(0, 0, 0, .08);
+}
+
+body{
+    background: var(--gradasi);
+}
+
+.custom{
+    background: var(--gradasi);
+}
+
+.ikon-navbar{
+    font-family: 'Poppins','sans serif';
+    color: var(--merah);
+}
+
+.teks-atas{
+    font-family: 'Poppins','sans serif';
+}
+
+
+.btn{
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+   color: var(--merah);
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 10px;
+}
+
+
+
+/* .item-navbar{
+    color: var(--merah);
+} */
+
+.navbar{
+    font-weight: 800;
+    font-family: 'Poppins', 'sans serif';
+}
+
+.navbar-nav .nav-link .navbar-light{
+    padding: 10px;
+}
+
+
+.kontent{
+    margin-right: 50px;
+    font-family: 'Poppins','sans serif';
+    font-size: 50px;
+}
+
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .7);
+    z-index: 1;
+}
+
+.home-tiket{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .7);
+}
+
+
+.kalla-overlay{
+    background: var(--gradasi-2);
+    z-index: 2;
+}
+
+.urutan-nomor{
+    width: 45px;
+    height: 45px;
+}
+
+
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../foto/bus-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
